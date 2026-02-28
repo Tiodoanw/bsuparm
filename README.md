@@ -27,4 +27,4 @@ Si quieres correr el código fuente directamente, sigue estos pasos:
 1. Asegúrate de tener Python instalado en tu sistema.
 2. Clona este repositorio en tu máquina local:
    ```bash
-   git clone [https://github.com/Tiodoanw/bsuparm.git](https://github.com/Tiodoanw/bsuparm.git)
+   git clone [https://github.com/Tiodoanw/bsuparm.git](https://github.com/Tiodoanw/bsuparm.git
