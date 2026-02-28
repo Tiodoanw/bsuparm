@@ -2,9 +2,15 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import json
 import os
+import sys
 from datetime import datetime
 
-FILE_NAME = 'expenses.json'
+if getattr(sys, 'frozen', False):
+    BASE_DIR = os.path.dirname(sys.executable)
+else:
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+FILE_NAME = os.path.join(BASE_DIR, 'expenses.json')
 
 def load_expenses():
     if not os.path.exists(FILE_NAME):
